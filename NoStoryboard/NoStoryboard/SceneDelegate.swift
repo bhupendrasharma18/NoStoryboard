@@ -28,6 +28,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         // Create and assign your root UIViewController or UINavigationController or UITabBarController to window?.rootViewController
         let viewController = HomeViewController.init(nibName: "HomeViewController", bundle: nil)
+        
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         window?.rootViewController = viewController
