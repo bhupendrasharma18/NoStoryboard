@@ -13,6 +13,8 @@
 		73102F09242F795900040623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73102F07242F795900040623 /* LaunchScreen.storyboard */; };
 		73102F14242F795900040623 /* NoStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73102F13242F795900040623 /* NoStoryboardTests.swift */; };
 		73102F1F242F795900040623 /* NoStoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73102F1E242F795900040623 /* NoStoryboardUITests.swift */; };
+		73102F2E242F7F7200040623 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73102F2C242F7F7200040623 /* HomeViewController.swift */; };
+		73102F2F242F7F7200040623 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73102F2D242F7F7200040623 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		73102F1A242F795900040623 /* NoStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73102F1E242F795900040623 /* NoStoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoStoryboardUITests.swift; sourceTree = "<group>"; };
 		73102F20242F795900040623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73102F2C242F7F7200040623 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		73102F2D242F7F7200040623 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				73102F05242F795900040623 /* Assets.xcassets */,
 				73102F07242F795900040623 /* LaunchScreen.storyboard */,
 				73102F0A242F795900040623 /* Info.plist */,
+				73102F2C242F7F7200040623 /* HomeViewController.swift */,
+				73102F2D242F7F7200040623 /* HomeViewController.xib */,
 			);
 			path = NoStoryboard;
 			sourceTree = "<group>";
@@ -228,6 +234,7 @@
 			files = (
 				73102F09242F795900040623 /* LaunchScreen.storyboard in Resources */,
 				73102F06242F795900040623 /* Assets.xcassets in Resources */,
+				73102F2F242F7F7200040623 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +261,7 @@
 			files = (
 				73102EFD242F795800040623 /* AppDelegate.swift in Sources */,
 				73102EFF242F795800040623 /* SceneDelegate.swift in Sources */,
+				73102F2E242F7F7200040623 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
